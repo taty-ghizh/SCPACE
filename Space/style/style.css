@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+    *,
+    *:before,
+    *:after{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/back4.jpg)center, no-repeat;
+    background-size: cover;
+}
+.intro__heading{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+}
+.intro__title{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(20, 20, 20);
+}
+.header {
+    width: 100%;
+    padding-top: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(152, 92, 221);
+    text-decoration: underline;
+}
+.navig{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navig__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+  color: #fff;
+  text-decoration: none; 
+}
+.navig__link:hover{
+    text-decoration: underline;
+}
+.button{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 25px;
+    margin-top: 30px;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 4px;
+    color: rgb(17, 0, 27);
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+.button:hover{
+    color: rgb(67, 6, 107);
+    background-color: rgb(204, 156, 226);
+    border: 2px solid rgb(67, 6, 107);
+}
+.section{
+    padding: 80px 0;
+}
+.header1{
+    text-align: center;
+    margin-top: 30px;
+}
+.section__text{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.section__img img{
+    border-radius: 20px;
+}
+.section__img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.image:hover{
+    color: rgb(216, 42, 19);
+}
+ footer{
+    background: #FBBCA8;
+    padding: 6px 15px;
+    margin-top: 70px;
+ } 
+ .caption{
+     text-align: center;
+     font-family: 'Dosis', sans-serif;
+     font-size: 17px;
+ }
+ footer{
+     text-align: center;
+ }
